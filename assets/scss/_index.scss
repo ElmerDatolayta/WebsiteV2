@@ -484,5 +484,208 @@
             }
         }
     }
+
+   .creativeDescription{
+        height: 50vw;
+        width: 100%;
+        
+        .creativeBackground{
+            background-color:darkblue;
+            position: relative;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            background-image:url('../images/main-banner3.jpg');
+            width:100%;
+            height:50vw;
+            background-size: cover;
+        }
+
+        .col{
+            padding: 0 0;
+        }
+
+        .descriptionTabs{
+            background-color:white;
+            list-style-type: none;
+            padding:25px 9.5vw;
+            text-align:center;
+            .descriptionLinks{
+                padding: 0 3vw;
+                a{
+                    font-size:2vw;
+                    color:gray;
+                    z-index: 1;
+                }
+            }
+            .active{
+                a{
+                    color:black;
+                    font-weight: bold;
+                    z-index:2;
+                    border:none;
+                }
+            }
+        }
+        .creativeContents{
+            height:40%;
+            width:100%;
+            padding: 50px 70px;
+
+            .orangeText{
+                color:#FBB031;
+            }
+            .blueText{
+                color:#01BFFF;
+            }
+
+            h1{
+                color:white;
+                text-align: justify;
+                font-size: 3.25vw;
+                text-align: center;
+            }
+            p{
+                padding-top:30px;
+                text-indent: 20px;
+                color:white;
+                font-size: 1.5vw;
+                text-align: justify;
+            }
+            img{
+                width:100%;
+                height:100%;
+            }    
+        }
+
+        @media screen and (max-width:991px){
+
+            .descriptionTabs{
+                padding:25px 8vw;
+                .descriptionLinks{
+                    padding: 0 3vw;
+                    a{
+                        font-size:2vw;
+                        color:gray;
+                        z-index: 1;
+                    }
+                }
+            }
+
+            .creativeContents{
+                h1{
+                    font-size:6vw;
+                }
+                p{
+                    font-size:2.5vw;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        @media screen and (max-width:768px){
+            .descriptionTabs{
+                padding:25px 8vw;
+                .descriptionLinks{
+                    padding: 0 3vw;
+                    a{
+                        font-size:2vw;
+                        color:gray;
+                        z-index: 1;
+                    }
+                }
+            }
+        }
+   }
+
+   #contacts{
+       width:100%;
+       height:90vw;
+       background-color: #3D92CB;
+       .getTouch{
+           height: 70%;
+           background-color:white;
+           .getText{
+                margin-top: 20%;
+                margin-left: 5%;
+                h1{
+                    font-size:4em;
+                }
+                p{
+                    margin-top: 20px;
+                    font-size:1.7em;
+                    text-indent:75px;
+                    text-align:justify;
+                }
+           }
+
+           .contactUs{
+               padding-top:150px;
+                .dummyDiv img{
+                    width: 100%;
+                }
+                .inquirer{
+                    width: 45%;
+                    height: 500px;
+                    -webkit-box-shadow: 0px -5px 7px 1px rgba(199,199,199,1);
+                    -moz-box-shadow: 0px -5px 7px 1px rgba(199,199,199,1);
+                    box-shadow: 0px -5px 7px 1px rgba(199,199,199,1);
+                    padding:50px 50px;
+                    background-color:white;
+                    p{
+                        width:50%;
+                        text-align: justify;
+                        color:grey;
+                    }
+                    form
+                    {
+                        .inquireForms{
+                            margin-top:15px;
+                            width:100%;
+                            border:none;
+                            padding: 10px 20px;
+                            -webkit-box-shadow: 1px -1px 2px 1px rgba(199,199,199,1);
+                            -moz-box-shadow: 1px -1px 2px 1px rgba(199,199,199,1);
+                            box-shadow: 1px -1px 2px 1px rgba(199,199,199,1);
+                        }
+                        .inquireForms2{
+                            margin-top:15px;
+                            width:100%;
+                            border:none;
+                            padding: 10px 20px;
+                            -webkit-box-shadow: -1px 1px 2px 1px rgba(199,199,199,1);
+                            -moz-box-shadow: -1px 1px 2px 1px rgba(199,199,199,1);
+                            box-shadow: -1px 1px 2px 1px rgba(199,199,199,1);
+                        }
+                        .inquireForms3{
+                            margin-top:15px;
+                            width:100%;
+                            height:100px;
+                            border:none;
+                            padding: 10px 20px;
+                            -webkit-box-shadow: -1px 1px 2px 1px rgba(199,199,199,1);
+                            -moz-box-shadow: -1px 1px 2px 1px rgba(199,199,199,1);
+                            box-shadow: -1px 1px 2px 1px rgba(199,199,199,1);
+                            vertical-align: top;
+                        }
+                        .buttonCenter{
+                            text-align: center;
+                        }
+                        .inquireSubmit{
+                            color:white;
+                            background-color:#3D92CB;
+                            border:none;
+                            font-size: 1.3em;
+                            padding:10px 30px;
+                            margin-top:20px;
+                        }
+                    }     
+                }
+            }
+       }
+   }
+
 }
 
