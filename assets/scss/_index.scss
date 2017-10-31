@@ -139,7 +139,7 @@
             margin: 0;
             &-overlay{
                 &-1{
-                    background: url('../images/banner.jpg') no-repeat;
+                    background: url('../images/banner01.jpg') no-repeat;
                     -webkit-background-size: cover;
                     -moz-background-size: cover;
                     -o-background-size: cover;
@@ -397,77 +397,339 @@
             }
             .row{
                 .col{
+                    height: 222px;
+                    padding: 0px;
                     img{
                         width: 120px;
                         height: 120px;
+                        margin-top: 20px;
                     }
+                }
+                .border-right{
+                    border-right: 1px solid lightgray;
+                }
+                .border-bottom{
+                    border-bottom: 1px solid lightgray;
                 }
             }
         }
     }
     .gallery{
         .container{
-            img{
-                border: 5px solid white;
-            }
             .row{
                 padding: 0px;
                 .col{
                     padding: 0px;
+                    position: relative;
                 }
                 .right{
                     float: right;
-                    img{
-                        width: 100%;
-                        height: 36vw;
-                    }
+                }
+                .image1{
+                    height: 600px;
+                    background-image: url('../images/team 3.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    border: 5px solid white;
+                    background-repeat: no-repeat;
                 }
                 .left{
                     float: left;
-                    img{
-                        width: 100%;
-                        height: 18vw;
-                    }
                 }
-            }
-            .second{
-                .col{
-                    img{
-                         width: 100%;
-                         height: 18vw;
-                    }
+                .image2{
+                    height: 300px;
+                    background-image: url('../images/francis.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    border: 5px solid white;
+                    background-repeat: no-repeat;
+                }
+                .image3{
+                    height: 300px;
+                    background-image: url('../images/Elmer.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    border: 5px solid white;
+                    background-repeat: no-repeat;
+                }
+                .image4{
+                    height: 300px;
+                    background-image: url('../images/Melvin.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    border: 5px solid white;
+                    background-repeat: no-repeat;
+                }
+                .image5{
+                    height: 300px;
+                    background-image: url('../images/Marni.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    border: 5px solid white;
+                    background-repeat: no-repeat;
+                }
+                .image6{
+                    height: 300px;
+                    background-image: url('../images/Jessie.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    border: 5px solid white;
+                    background-repeat: no-repeat;
+                }
+                .image7{
+                    height: 300px;
+                    background-image: url('../images/Darwin.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    border: 5px solid white;
+                    background-repeat: no-repeat;
+                }
+                .image8{
+                    height: 300px;
+                    background-image: url('../images/Clint.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    border: 5px solid white;
+                    background-repeat: no-repeat;
+                }
+                .image9{
+                    height: 300px;
+                    background-image: url('../images/Jennifer.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    border: 5px solid white;
+                    background-repeat: no-repeat;
                 }
             }
         }
-       .view{
-           padding: 0px;
-           border: 5px solid white;
-            .view-details{
-                background-image: url('../images/main-banner3.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                a{
-                    background-color: rgba(44, 104, 235, 0.19);
-                    padding: 10px 30px;
-                    font-size: 25px;
-                    color: white;
-                    border-radius: 0px;
-                    margin-top: 80vh;
-                    margin-bottom: 20vh;
-                }
+        .view-details{
+            background-image: url('../images/Team Whole.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 5px solid white;
+            height: 80vh;
+            background-position-y: -190px;
+        }
+        .view-details2{
+            background-image: url('../images/Team Whole.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 5px solid white;
+            height: 80vh;
+            display: none;
+        }
+        h3{
+            display: none;
+        }
+        .button{
+            display: none;
+            background-color: rgba(60, 146, 202, 0.5)
+        }
+        .col:hover{
+            .overlay{
+                background-color: rgba(0, 0, 0, 0.4);
+                height: 100%;
+                width: 100%;
+            }
+            .button{
+                display: block;
+                width: 200px;
+                border-radius: 0px;
+                padding: 10px 30px;
+                border: none;
+                font-size: 18px;
+            }
+            h3{
+                margin-top: 0px;
+                margin-bottom: 10px;
+                display: block;
+                color: white;
+                font-weight: normal;
+                text-transform: uppercase;
             }
         }
-        .last-row{
-            .row{
-                .col{
-                    img{
-                        width: 100%;
-                        height: 18vw;
-                    }
-                }
+        .col{
+            .contain{
+                position: relative;
+                top: 150px;
+            }
+            .contain1{
+                position: relative;
+                top: 423px;
+            }
+            .contain2{
+                position: relative;
+                top: 50vh;
             }
         }
     }
+    
+    // testimonials
+
+    .testimonials{
+        margin-top: 50px;
+        margin-bottom: 50px;
+       .container{
+           .row{
+               .col1{
+                    height: 400px;
+                    background-image: url('../images/j&j.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    #chevron {
+                        position: absolute;
+                        text-align: center;
+                        padding: 12px;
+                        margin-bottom: 6px;
+                        height: 60px;
+                        width: 401px;
+                        margin-top: 275px;
+                        left: -123.5px;
+                        z-index: 10;
+                      }
+                      
+                      #chevron:before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 100%;
+                        width: 51%;
+                        background: orange;
+                        -webkit-transform: skew(0deg, 6deg);
+                        -moz-transform: skew(0deg, 6deg);
+                        -ms-transform: skew(0deg, 6deg);
+                        -o-transform: skew(0deg, 6deg);
+                        transform: skew(0deg, 6deg);
+                
+                      }
+                      #chevron:after {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        height: 100%;
+                        width: 50%;
+                        background: orange;
+                        -webkit-transform: skew(0deg, -6deg);
+                        -moz-transform: skew(0deg, -6deg);
+                        -ms-transform: skew(0deg, -6deg);
+                        -o-transform: skew(0deg, -6deg);
+                        transform: skew(0deg, -6deg);
+                      }​
+                    .rotate{
+                        transform: rotate(-90deg); /* Equal to rotateZ(45deg) */
+                    }
+
+                }
+                .rotate{
+                    transform: rotate(-90deg); /* Equal to rotateZ(45deg) */
+                }
+               .col2{
+                    height: 400px;
+                    background-color: #3D92CB;
+                    z-index: -1;
+                   h1{
+                       margin-top: 100px;
+                       font-weight: bold;
+                   }
+                   p{
+                       width: 70%;
+                       margin-left: 15%;
+                       margin-right: 15%;
+                       color: white;
+                   }
+                   h2{
+                       margin-top: 50px
+                   }
+               }
+           }
+       }
+    }
+
+    // media query //
+
+    @media (max-width: 1200px){
+        .testimonials{
+            .container{
+                .row{
+                    .col{
+                        .rotate{
+                            #chevron {
+                                position: absolute;
+                                text-align: center;
+                                padding: 12px;
+                                margin-bottom: 6px;
+                                height: 60px;
+                                width: 401px;
+                                margin-top: 210px;
+                                left: -174px;
+                                z-index: 10;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+    
+    @media (max-width: 991px){
+        .testimonials{
+            .container{
+                .row{
+                    .col{
+                        .rotate{
+                            #chevron {
+                               display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .our-services{
+            .container{
+                .row{
+                    .border-bottom2{
+                       border-bottom: 1px solid lightgray;
+                    }
+                    .border-right{
+                        border-right: none;
+                    }
+                    .border-right1{
+                       border-right: 1px solid lightgray;
+                    } 
+                    .border-right2{
+                        border-right: 1px solid lightgray;
+                    } 
+                    .border-right3{
+                        border-right: 1px solid lightgray;
+                    } 
+                    .border-right4{
+                        border-right: 1px solid lightgray;
+                    } 
+                }
+            }
+        }
+        .gallery{
+            .container{
+                .row{
+                    .col{
+                        .second{
+                            float: right;
+                        }
+                    }
+                    .view-details{
+                        display: none;
+                    }
+                    .view-details2{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }  
 
     @media (max-width: 893px){
         .gallery{
@@ -475,10 +737,48 @@
                 .row{
                     .col{
                         width: 100%;
-                        img{
-                            width: 100%;
-                            height: 100%;
-                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 768px){
+        .our-services{
+            .container{
+                .row{
+                    .border-bottom2{
+                       border-bottom: none;
+                    }
+                    .border-bottom{
+                        border: none;
+                    }
+                    .border-right{
+                        border-right: none;
+                    }
+                    .border-right1{
+                       border-right: none;
+                    } 
+                    .border-right2{
+                        border-right: none;
+                    } 
+                    .border-right3{
+                        border-right: none;
+                    } 
+                    .border-right4{
+                        border-right: none;
+                    } 
+                }
+            }
+        }
+        .gallery{
+            .container{
+                .row{
+                    .right{
+                        float: none;
+                    }
+                    .left{
+                        float: none;
                     }
                 }
             }
