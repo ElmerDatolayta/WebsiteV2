@@ -555,11 +555,11 @@
             }
             .contain1{
                 position: relative;
-                top: 423px;
+                top: 425px;
             }
             .contain2{
                 position: relative;
-                top: 50vh;
+                top: 53vh;
             }
         }
     }
@@ -572,23 +572,27 @@
        .container{
            .row{
                .col1{
-                    height: 400px;
-                    background-image: url('../images/j&j.jpg');
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-position: center;
-                    #chevron {
-                        position: absolute;
-                        text-align: center;
-                        padding: 12px;
-                        margin-bottom: 6px;
-                        height: 60px;
-                        width: 401px;
-                        margin-top: 275px;
-                        left: -123.5px;
-                        z-index: 10;
-                      }
-                      
+                    padding: 0px;
+                    .back{
+                        height: 400px;
+                        background-image: url('../images/j&j.jpg');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                    
+                        #chevron {
+                            position: absolute;
+                            text-align: center;
+                            padding: 12px;
+                            margin-bottom: 6px;
+                            height: 60px;
+                            width: 401px;
+                            margin-top: 250px;
+                            left: -108.5px;
+                            z-index: 10;
+                        }
+                    }
+                    
                       #chevron:before {
                         content: '';
                         position: absolute;
@@ -631,8 +635,9 @@
                     background-color: #3D92CB;
                     z-index: -1;
                    h1{
-                       margin-top: 100px;
+                       padding-top: 100px;
                        font-weight: bold;
+                       margin-top: 0px;
                    }
                    p{
                        width: 70%;
@@ -663,8 +668,8 @@
                                 margin-bottom: 6px;
                                 height: 60px;
                                 width: 401px;
-                                margin-top: 210px;
-                                left: -174px;
+                                margin-top: 200px;
+                                left: -158.5px;
                                 z-index: 10;
                             }
                         }
@@ -678,6 +683,16 @@
         .testimonials{
             .container{
                 .row{
+                    .col1{
+                        height: 400px;
+                        padding-top: 100px;
+                        background-color: #3D92CB;
+                        .back{
+                            height: 300px;
+                            width: 300px;
+                            border-radius: 100%;
+                        }
+                    }
                     .col{
                         .rotate{
                             #chevron {
@@ -779,6 +794,41 @@
                     }
                     .left{
                         float: none;
+                        background-position: center;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 414px){
+        .gallery{
+            .container{
+                .row{
+                    .right{
+                        float: none;
+                        background-position-x: -285px;
+                    }
+                    .left{
+                        float: none;
+                        background-position: center;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 350px){
+        .gallery{
+            .container{
+                .row{
+                    .right{
+                        float: none;
+                        background-position-x: -330px;
+                    }
+                    .left{
+                        float: none;
+                        background-position: center;
                     }
                 }
             }
