@@ -139,7 +139,7 @@
             margin: 0;
             &-overlay{
                 &-1{
-                    background: url('../images/banner01.jpg') no-repeat;
+                    background: url('../images/banner.jpg') no-repeat;
                     -webkit-background-size: cover;
                     -moz-background-size: cover;
                     -o-background-size: cover;
@@ -153,7 +153,7 @@
                     z-index: 0;
                 }
                 &-2{
-                    background: url('../images/main-banner.jpg') no-repeat;
+                    background: url('../images/banner2.jpg') no-repeat;
                     -webkit-background-size: cover;
                     -moz-background-size: cover;
                     -o-background-size: cover;
@@ -166,34 +166,34 @@
                     bottom: 0;
                     z-index: 0;
                 }
-                &-3{
-                    background: url('../images/main-banner2.jpg') no-repeat;
-                    -webkit-background-size: cover;
-                    -moz-background-size: cover;
-                    -o-background-size: cover;
-                    background-size: cover;
-                    width: 100%; /* Full width (cover the whole page) */
-                    height: 100vh; /* Full height (cover the whole page) */
-                    top: 0; 
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    z-index: 0;
-                }
-                &-4{
-                    background: url('../images/main-banner3.jpg') no-repeat;
-                    -webkit-background-size: cover;
-                    -moz-background-size: cover;
-                    -o-background-size: cover;
-                    background-size: cover;
-                    width: 100%; /* Full width (cover the whole page) */
-                    height: 100vh; /* Full height (cover the whole page) */
-                    top: 0; 
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    z-index: 0;
-                }
+                // &-3{
+                //     background: url('../images/main-banner2.jpg') no-repeat;
+                //     -webkit-background-size: cover;
+                //     -moz-background-size: cover;
+                //     -o-background-size: cover;
+                //     background-size: cover;
+                //     width: 100%; /* Full width (cover the whole page) */
+                //     height: 100vh; /* Full height (cover the whole page) */
+                //     top: 0; 
+                //     left: 0;
+                //     right: 0;
+                //     bottom: 0;
+                //     z-index: 0;
+                // }
+                // &-4{
+                //     background: url('../images/main-banner3.jpg') no-repeat;
+                //     -webkit-background-size: cover;
+                //     -moz-background-size: cover;
+                //     -o-background-size: cover;
+                //     background-size: cover;
+                //     width: 100%; /* Full width (cover the whole page) */
+                //     height: 100vh; /* Full height (cover the whole page) */
+                //     top: 0; 
+                //     left: 0;
+                //     right: 0;
+                //     bottom: 0;
+                //     z-index: 0;
+                // }
             }            
         }
 
@@ -427,7 +427,7 @@
                 }
                 .image1{
                     height: 600px;
-                    background-image: url('../images/team 3.jpg');
+                    background-image: url('../images/team.jpg');
                     background-size: cover;
                     background-position: center;
                     border: 5px solid white;
@@ -446,7 +446,7 @@
                 }
                 .image3{
                     height: 300px;
-                    background-image: url('../images/Elmer.jpg');
+                    background-image: url('../images/elmer.jpg');
                     background-size: cover;
                     background-position: center;
                     border: 5px solid white;
@@ -454,7 +454,7 @@
                 }
                 .image4{
                     height: 300px;
-                    background-image: url('../images/Melvin.jpg');
+                    background-image: url('../images/melvin.jpg');
                     background-size: cover;
                     background-position: center;
                     border: 5px solid white;
@@ -462,7 +462,7 @@
                 }
                 .image5{
                     height: 300px;
-                    background-image: url('../images/Marni.jpg');
+                    background-image: url('../images/marni.jpg');
                     background-size: cover;
                     background-position: center;
                     border: 5px solid white;
@@ -470,7 +470,7 @@
                 }
                 .image6{
                     height: 300px;
-                    background-image: url('../images/Jessie.jpg');
+                    background-image: url('../images/jessie.jpg');
                     background-size: cover;
                     background-position: center;
                     border: 5px solid white;
@@ -478,7 +478,7 @@
                 }
                 .image7{
                     height: 300px;
-                    background-image: url('../images/Darwin.jpg');
+                    background-image: url('../images/darwin.jpg');
                     background-size: cover;
                     background-position: center;
                     border: 5px solid white;
@@ -486,7 +486,7 @@
                 }
                 .image8{
                     height: 300px;
-                    background-image: url('../images/Clint.jpg');
+                    background-image: url('../images/clint.jpg');
                     background-size: cover;
                     background-position: center;
                     border: 5px solid white;
@@ -494,7 +494,7 @@
                 }
                 .image9{
                     height: 300px;
-                    background-image: url('../images/Jennifer.jpg');
+                    background-image: url('../images/jennifer.jpg');
                     background-size: cover;
                     background-position: center;
                     border: 5px solid white;
@@ -503,7 +503,7 @@
             }
         }
         .view-details{
-            background-image: url('../images/Team Whole.jpg');
+            background-image: url('../images/team_whole.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             border: 5px solid white;
@@ -511,7 +511,7 @@
             background-position-y: -190px;
         }
         .view-details2{
-            background-image: url('../images/Team Whole.jpg');
+            background-image: url('../images/team_whole.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             border: 5px solid white;
@@ -575,7 +575,7 @@
                     padding: 0px;
                     .back{
                         height: 400px;
-                        background-image: url('../images/j&j.jpg');
+                        background-image: url('../images/testimonial.jpg');
                         background-repeat: no-repeat;
                         background-size: cover;
                         background-position: center;
@@ -846,7 +846,7 @@
             bottom:0;
             left:0;
             right:0;
-            background-image:url('../images/AboutUs-background.jpg');
+            background-image:url('../images/about_us_background.jpg');
             width:100%;
             height:100%;
             background-size: cover;
@@ -1017,7 +1017,7 @@
             bottom:0;
             left:0;
             right:0;
-            background-image:url('../images/AboutUs-background.jpg');
+            background-image:url('../images/about_us_background.jpg');
             width:100%;
             height:100%;
             background-size: cover;
