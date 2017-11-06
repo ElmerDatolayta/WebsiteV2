@@ -591,11 +591,33 @@
                .col1{
                     padding: 0px;
                     .back{
+                        .slick-next {
+                           display: none !important;
+                        }
+                        .slick-prev{
+                            display: none !important;
+                        }
+                      .back1{
                         height: 400px;
                         background-image: url('../images/testimonial.jpg');
                         background-repeat: no-repeat;
                         background-size: cover;
                         background-position: center;
+                      }
+                      .back2{
+                        height: 400px;
+                        background-image: url('../images/jennifer.jpg');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                      }
+                      .back3{
+                        height: 400px;
+                        background-image: url('../images/jessie.jpg');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                      }
                     
                         #chevron {
                             position: absolute;
@@ -605,7 +627,7 @@
                             height: 60px;
                             width: 401px;
                             margin-top: 250px;
-                            left: -108.5px;
+                            left: 296.5px;
                             z-index: 10;
                         }
                     }
@@ -672,7 +694,7 @@
 
     // media query //
 
-    @media (max-width: 1200px){
+    @media (max-width: 1199px){
         .testimonials{
             .container{
                 .row{
@@ -685,8 +707,8 @@
                                 margin-bottom: 6px;
                                 height: 60px;
                                 width: 401px;
-                                margin-top: 200px;
-                                left: -158.5px;
+                                margin-top: 210px;
+                                left: 246.5px;
                                 z-index: 10;
                             }
                         }
@@ -705,9 +727,23 @@
                         padding-top: 100px;
                         background-color: #3D92CB;
                         .back{
-                            height: 300px;
-                            width: 300px;
-                            border-radius: 100%;
+                            .single-item{
+                                .back1{
+                                    height: 300px;
+                                    width: 300px !important;
+                                    border-radius: 100%;
+                                }
+                                .back2{
+                                    height: 300px;
+                                    width: 300px !important;
+                                    border-radius: 100%;
+                                }
+                                .back3{
+                                    height: 300px;
+                                    width: 300px !important;
+                                    border-radius: 100%;
+                                }
+                            }
                         }
                     }
                     .col{
