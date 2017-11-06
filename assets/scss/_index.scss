@@ -507,15 +507,16 @@
             background-repeat: no-repeat;
             background-size: cover;
             border: 5px solid white;
-            height: 80vh;
-            background-position-y: -190px;
+            height: 580px;
+            background-position: bottom;
         }
         .view-details2{
             background-image: url('../images/team_whole.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             border: 5px solid white;
-            height: 80vh;
+            height: 580px;
+            background-position: bottom;
             display: none;
         }
         h3{
@@ -538,6 +539,9 @@
                 height: 100%;
                 width: 100%;
                 opacity: 1;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
             }
             .button{
                 display: block;
@@ -567,16 +571,16 @@
         }
         .col{
             .contain{
-                position: relative;
-                top: 150px;
+                position: absolute;
+                margin-top: 50px;
             }
             .contain1{
-                position: relative;
-                top: 425px;
+                position: absolute;
+                margin-top: 100px;
             }
             .contain2{
-                position: relative;
-                top: 53vh;
+                position: absolute;
+                margin-top: 100px;
             }
         }
     }
