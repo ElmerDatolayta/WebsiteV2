@@ -400,7 +400,7 @@
                     height: 222px;
                     padding: 0px;
                     img{
-                        width: 120px;
+                        width: auto;
                         height: 120px;
                         margin-top: 20px;
                     }
@@ -525,11 +525,19 @@
             display: none;
             background-color: rgba(60, 146, 202, 0.5)
         }
+        .overlay{
+            transition: all 1s ease-in-out;
+            opacity: 0;
+        }
+        h6{
+            display: none;
+        }
         .col:hover{
             .overlay{
                 background-color: rgba(0, 0, 0, 0.4);
                 height: 100%;
                 width: 100%;
+                opacity: 1;
             }
             .button{
                 display: block;
@@ -538,8 +546,17 @@
                 padding: 10px 30px;
                 border: none;
                 font-size: 18px;
+                
             }
             h3{
+                margin-top: 0px;
+                margin-bottom: 10px;
+                display: block;
+                color: white;
+                font-weight: normal;
+                text-transform: uppercase;
+            }
+            h6{
                 margin-top: 0px;
                 margin-bottom: 10px;
                 display: block;
