@@ -799,6 +799,7 @@
     #contact{
         position: relative;
         background-color: #3D92CB;
+        padding-bottom: 50px;
         .container-fluid{
             .row{
                 .map{
@@ -832,6 +833,7 @@
                     padding-left: 50px;
                     padding-right: 50px;
                     padding-top: 50px;
+                    margin-left: 50px;
                     box-shadow: 1px -5px 1px 1px #A1A0A0;
 
                     p{
@@ -862,7 +864,7 @@
                         border: none;
                         width: 200px;
                         margin-top: 20px;
-                        margin-bottom: 5px;
+                        margin-bottom: 15px;
                     }
                 }
                 .orange-form{
@@ -911,7 +913,7 @@
                     }
                     .links{
                         margin-top: 60px;
-                        margin-bottom: 60px;
+                        margin-bottom: 55px;
                         .fa{
                             font-size: 25px;
                             padding: 10px 15px;
@@ -986,10 +988,11 @@
                         }
                         .social-btns .btn {
                           display: inline-block;
-                          background-color: #fff;
-                          width: 50px;
-                          height: 50px;
+                          background-color: orange;
+                          width: 60px;
+                          height: 60px;
                           line-height: 90px;
+                          margin-right: 10px;
                         //   margin: 0 10px;
                           text-align: center;
                           position: relative;
@@ -1007,13 +1010,72 @@
                                   transform: rotate(45deg);
                         }
                         .social-btns .btn .fa {
-                          font-size: 38px;
-                        //   vertical-align: middle;
-                        margin-top: -10px;
-                        margin-left: -18px;
-                        }
+                            font-size: 38px;
+                            //   vertical-align: middle;
+                            position: absolute;
+                            top: -2px;
+                            left: -5px;
                         
+                        }
                     }
+                }
+            }
+        }
+    }
+
+    // footer
+
+    #footer{
+        .container-fluid{
+            .row{
+                .first{
+                    padding: 0px 50px;
+
+                    h3{
+                        font-weight: bold;
+                    }
+
+                   input{
+                       padding: 10px 20px;
+                       width: 300px;
+                       border-radius: 100px;
+                       border: 2px solid #1F1F1F;
+                   }
+                   a{
+                       width: 150px;
+                       margin-left: 20px;
+                       border-radius: 100px;
+                       padding: 10px 20px;
+                       font-size: 20px;
+                       background-color: #3D92CB;
+                   }
+                   p{
+                       width: 80%;
+                       margin-top: 20px;
+                   }
+                }
+                .second{
+                    padding: 40px 10px;
+                    border-left: 1px solid lightgray;
+                    border-right: 1px solid lightgray;
+                    
+                    a{
+                       display: inline-block;
+                       width: 100%;
+                       margin-top: 10px;
+                       font-size: 13px;
+                    }
+                }
+                .third{
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    padding-top: 50px;
+
+                  img{
+                      position: center;
+                      width: 100%;
+                      height: 100%;
+                  }
                 }
             }
         }
