@@ -551,7 +551,7 @@
                 font-weight: normal;
                 text-transform: uppercase;
                 animation:
-                slideUp 1.0s .5s cubic-bezier(0.17,.88,.32,1.27) both,
+                slideUp .75s .5s cubic-bezier(0.17,.88,.32,1.27) both,
                 fadeIn .25s .5s ease-in both;
                 // padding: 0 20px;
                 // position: absolute;
@@ -578,7 +578,7 @@
                 font-weight: normal;
                 text-transform: uppercase;
                 animation:
-                slideUp 1.5s .5s cubic-bezier(0.17,.88,.32,1.27) both,
+                slideUp .75s .5s cubic-bezier(0.17,.88,.32,1.27) both,
                 fadeIn .25s .5s ease-in both;
                 // padding: 0 20px;
                 // position: absolute;
@@ -600,7 +600,7 @@
             .icons{
                 margin-top: 30px;
                 animation:
-                slideUp 2s .5s cubic-bezier(0.17,.88,.32,1.27) both,
+                slideUp .75s .5s cubic-bezier(0.17,.88,.32,1.27) both,
                 fadeIn .25s .5s ease-in both;
                 // padding: 0 20px;
                 // position: absolute;
